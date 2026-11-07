@@ -1,0 +1,19 @@
+[project]
+name = "ai-week10"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Gianni TUERO", email = "gianni.tuero@epitech.eu" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "keras>=3.15.1",
+]
+
+[project.scripts]
+ai-week10 = "ai_week10:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
