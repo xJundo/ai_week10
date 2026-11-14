@@ -32,6 +32,25 @@ Example: The classes are 54:46, which is similar, so we use accuracy and ROC AUC
 
 Calculate the common-sense baseline. This is the score you can get without a model.
 
-Example: Always predicting the larger class gives 54% accuracy. / For regression, the MAE when always predicting the mean
+Example: Always predicting the larger class gives 54% accuracy. / For regression, the MAE whe   n always predicting the mean
 
 Create a team notebook in Colab or Kaggle. Load the data and print the first 5 rows.
+
+![alt text](image.png)
+
+## Meeting memo — 07/11
+
+During this meeting we:
+- Went through the assignment together.
+- Clarified the key notions (dataset, problem type, evaluation metric, common-sense baseline) so that everyone has the same understanding.
+- Set up the project together.
+- Split the tasks:
+  - **Paul-Antoine and Amine** will choose the dataset and write the justification for this choice.
+  - **Victor and Gianni** will choose the evaluation metric after checking the class ratio, and compute the common-sense baseline.
+
+### Opinions
+
+- **Paul-Antoine:** As beginners, we should pick a small, clean dataset so we can focus on understanding the basics.
+- **Amine:** We should choose data with only numeric columns and no missing values, and check that its license allows us to use it.
+- **Victor:** Accuracy is the simplest metric to understand, so we start with it and only add another one if needed.
+- **Gianni:** The common-sense baseline gives us a minimum score to beat, so we can tell if a model is really learning.
