@@ -77,3 +77,28 @@ Voici ce qu'on devait faire dans la week 11:
 
 Finally, compile your answers to these points and submit them as a single document. (Screenshots of the exploration results and graphs, the data split, and the data before and after preprocessing, notebook file, and AI usage record)
 ```
+
+Voici ce qu'on devait faire dans la week 12:
+```txt
+     Build one simple baseline model and get its average cross-validation score. Compare it with the common-sense baseline from Week 10.
+
+    Example: Logistic regression (or a single Dense layer) -> 5-fold average accuracy 79% / Higher than the common-sense baseline of 54%
+
+    Design your first deep learning model with Keras. Decide the number of layers, units, and activation functions. Explain why you chose the last-layer activation and the loss function for your problem type.
+
+    Example: Two Dense(16, relu) layers + Dense(1, sigmoid) / Binary classification, so sigmoid and binary_crossentropy
+
+    Get the average cross-validation score and standard deviation of the model. Then choose one fold, draw the curves of training and validation loss and training and validation metrics, and explain the state of the model.
+
+    Example: 5-fold average accuracy 83% (standard deviation 2.1%) / The validation loss starts to go up again after 20 epochs.
+
+    Look at the results, change the model at least once, and train it again. Write what you changed and why, and how the cross-validation score changed.
+
+    Example: The validation loss went up after 20 epochs, so we reduced the epochs to 20 -> Average accuracy improved from 83% to 84%.
+
+    Include the result of model.summary(). Explain how the number of parameters is calculated for the first layer.
+
+    Evaluate this week's best model on the check-up test set only once. Record the score with the cross-validation score.
+
+Finally, compile your answers to these points and submit them as a single document. (Screenshots of the baseline result, model structure, cross-validation scores, learning curves, before-and-after comparison, summary, and check-up result, notebook file, and AI usage record)
+```
